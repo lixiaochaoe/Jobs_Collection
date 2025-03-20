@@ -87,7 +87,7 @@ async def update_item(item_id: int, item: Item):
 async def patch_item(item_id: int, item_update: ItemUpdate):
     if item_id not in items_db:
         raise HTTPException(status_code=404, detail="Item not found")
-    
+    ###########
     # Get the existing item
     stored_item = items_db[item_id]
     stored_item_data = stored_item.dict()
