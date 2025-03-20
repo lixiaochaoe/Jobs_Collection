@@ -1,0 +1,17 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Node.js specific files
+node_modules/
+npm-debug.log
+.npm
+.yarn
+
+# Common patterns
+.DS_Store
+*.log
+logs/
+tmp/
+.env
